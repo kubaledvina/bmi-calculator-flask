@@ -1,0 +1,103 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h2{
+    margin-top: 50px;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #113F67;
+    background-color: #f9f9f9;
+    margin: 80px auto;
+
+}
+
+.form_row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form_row label {
+  width: 80px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.form_row input {
+  flex: 1;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 1s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.message{
+    color: green;
+}
+
+#stats table
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.table_wrapper{
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgb(51, 56, 160, 0.2);
+
+}
+
+.stats_table{
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.stats_table thead{
+    background-color: #074799;
+    color: white;
+}
+
+.stats_table th,
+.stats_table td{
+    padding: 15px;
+    text-align: center;
+}
+
+.stats_table tbody tr{
+    border-bottom: 1px solid #074799;
+}
+
+img{
+    margin-top: 30px
+}
