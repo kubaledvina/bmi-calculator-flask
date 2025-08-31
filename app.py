@@ -62,11 +62,16 @@ def input_user():
 @app.route("/stats")
 def stats_page():
     data = load_data()
-    if data:
-        plot_bmi(data)
+    plot_bmi(data)
 
-    return render_template("stats.html", data=data)
+    return render_template("stats.html")
 
+
+@app.route("/table")
+def table_page():
+    data = load_data()
+
+    return render_template("table.html", data=data)
 
 #main module
 if __name__ == "__main__":

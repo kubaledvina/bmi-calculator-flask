@@ -4,33 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Stats graf</title>
 </head>
-    <title>Stats BMI</title>
-</head>
-<body>
-<h1>Statistic BMI</h1>
 
-<div class="container">
-    <div class="table_wrapper">
-        <table class="stats_table">
-            <thead>
-                <tr>
-                    <th>Age</th>
-                    <th>BMI</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for age, bmi in data %}
-                <tr>
-                    <td>{{ age }}</td>
-                    <td>{{ bmi }}</td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
+<body>
+
+ <h1>Statistic graf</h1>
+
+    <div class="stats_container">
+        <a href="{{ url_for('table_page') }}" class="btn">Table</a>
     </div>
-</div>
-<img src="{{ url_for('static', filename='bmi_chart.png') }}" alt="Graf BMI">
+
+    <img src="{{ url_for('static', filename='bmi_chart.png') }}" alt="Graf BMI">
 
 </body>
 </html>

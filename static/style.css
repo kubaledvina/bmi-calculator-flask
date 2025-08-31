@@ -84,7 +84,7 @@ button:hover {
 }
 
 .stats_table thead{
-    background-color: #074799;
+    background-color: #009990;
     color: white;
 }
 
@@ -99,5 +99,24 @@ button:hover {
 }
 
 img{
+    align-items: center;
     margin-top: 30px
+}
+
+.stats_container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.btn:hover {
+    background-color: #0056b3;
 }

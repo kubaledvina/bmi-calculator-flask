@@ -26,7 +26,7 @@ def plot_bmi(data, save_path="static/bmi_chart.png"):
     avg_bmis = [round(sum(bmi_by_age[age]) / len(bmi_by_age[age]), 2) for age in ages]
 
     # Vykreslení grafu
-    plt.bar(ages, avg_bmis, color='green')
+    plt.bar(ages, avg_bmis, color='#009990')
     plt.title("Average BMI to age.")
     plt.xlabel("Age")
     plt.ylabel("Average BMI")
