@@ -68,5 +68,7 @@ Run the application:
 - Matplotlib
 - HTML & CSS
 
-License
-This project is licensed under the MIT License — feel free to use, modify, and share it.
+## Author
+Created by Jakub — feel free to reach out via GitHub issues.
+
+
