@@ -58,7 +58,7 @@ def input_user():
         return render_template("index.html", message=f"Your bmi is {bmi} - {category}.")
 
     return render_template("index.html")
-
+#graf site
 @app.route("/stats")
 def stats_page():
     data = load_data()
@@ -66,7 +66,7 @@ def stats_page():
 
     return render_template("stats.html")
 
-
+#table site
 @app.route("/table")
 def table_page():
     data = load_data()
